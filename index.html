@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krish's Handicraft Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js" defer></script>
+
+  </head>
+  <body>
+    <header class="header-btn">
+      <a href="#" class="logo">
+        <img src="images/img.jpg" alt="Krish's Handicraft Store Logo" />
+      </a>
+      <ul class="navbar">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#products">Product</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Reviews">Reviews</a></li>
+      </ul>
+      <div>
+        <a href="#" class="sign-up">Sign Up</a>
+        <a href="#" class="sign-in">Sign In</a>
+      </div>
+    </header>
+    <section class="Home" id="Home">
+      <div class="text">
+        <h1>  <span>Looking </span>to<br/></h1>
+          <h1>own a piece of rajasthan</h1>
+        <p>
+          We are here to help you explore the best of Handicraft's from
+          Rajasthan. Explore our collection,place an order and get ready to
+          receive the Rajasthani touch at your home.
+        </p>
+        <div class="links">
+          <img src="images/playstore.jpg" onclick=""/>
+          <img src="images/google.jpg" />
+        </div>
+      </div>
+      <div class="form-container">
+        <h1>Place an Order</h1>
+        <form action="#" method="post">
+          <select name="product" required>
+            <option value="" disabled selected>Select Product</option>
+            <option value="textile">Traditinal Textile</option>
+            <option value="pottery">hand-Painted Pottery</option>
+            <option value="jewellery">Rajasthani Jewellery</option>
+            <option value="furniture">Handicraft Furniture</option>
+            <option value="wooden-carving">Wooden carving</option>
+            <option value="crockery">Rajasthani Crockery</option>
+          </select>
+          <input
+            type="number"
+            placeholder="quantity"
+            name="quantity"
+            required
+          />
+          <input type="text" placeholder="Your Name" name="name" required />
+          <input type="email" placeholder="Your Email" name="email" required />
+          <input type="tel" placeholder="Your Phone" name="phone" required />
+          <textarea
+            rows="5"
+            placeholder="Your Message"
+            required
+            name="message"
+          ></textarea>
+          <button type="submit" class="submit">PlaceOrder</button>
+        </form>
+      </div>
+    </section>
+    <section class="service" id="services">
+      <div class="heading">
+        <span>HOW TO</span>
+        <h1>Get the best of Rajasthani</h1>
+        <h1>Handicrafts Delivered at your</h1>
+        <h1>doorstep.</h1>
+      </div>
+      <div class="service-container">
+        <div class="box">
+          <i class="bx bx-windows"></i>
+          <h2>Browse the Collections</h2>
+          <p>
+            Choose what you like from our collections listed int the following
+            section
+          </p>
+        </div>
+        <div class="box">
+          <i class="bx bxl-shopify"></i>
+          <h2>Place an Order</h2>
+          <p>Place your order by filling up the form in the above section.</p>
+        </div>
+        <div class="box">
+          <i class="bx bx-credit-card"></i>
+          <h2>Checkout Online</h2>
+          <p>Pay online using your preferred card,UPI or payment gateway.</p>
+        </div>
+      </div>
+    </section>
+    <section class="products" id="products">
+      <div class="head">
+        <h1>Options</h1>
+        <p>Explore our top deals from our Top Handicrafts Collections</p>
+      </div>
+      <div class="boxing">
+      <div class="boxes">
+        <img src="images/1.webp" alt="Traditional Textile" />
+        <h1>Traditional Textile</h1>
+        <h3>Rs:3000/piece</h3>
+        <button>Rent</button>
+      </div>
+      <div class="boxes">
+        <img src="images/2.webp" alt="Hand-Painted Pattery" />
+        <h1>Hand-Painted Pattery</h1>
+        <h3>Rs:2500/piece</h3>
+        <button>Rent</button>
+      </div>
+      <div class="boxes">
+        <img src="images/3.webp" alt="Rajasthani jewellery" />
+        <h1>Rajasthani jewellery</h1>
+        <h3>Rs:3500/piece</h3>
+        <button>Rent</button>
+      </div>
+      <div class="boxes">
+        <img src="images/4.webp" alt="handiCraft Furniture" />
+        <h1>handiCraft Furniture</h1>
+        <h3>Rs:3200piece</h3>
+        <button>Rent</button>
+      </div>
+      <div class="boxes">
+        <img src="images/5.webp" alt="Wooden carving" />
+        <h1>Wooden carving</h1>
+        <h3>Rs:4500/piece</h3>
+        <button>Rent</button>
+      </div>
+      <div class="boxes">
+        <img src="images/6.webp" alt="Rajasthani Crockery" />
+        <h1>Rajasthani Crockery</h1>
+        <h3>Rs:3000/piece</h3>
+        <button>Rent</button>
+      </div>
+    </div>
+    </section>
+    <section id="About">
+      <div class="about-me">
+      <div class="customer">
+        <img src="images/Krish.webp" alt="about-me">
+      </div>
+      <div class="about">
+      <h1>About</h1>
+      <h1>Krish's handiCraft Store</h1>
+        <p>Krish is a passionate young entrepreneur from Jaipur, Rajasthan, who is taking his family’s rich tradition of handicrafts into the digital world.
+        </p>
+        <p>As the first in his family to bring their craft online, Krish combines a love for traditional Rajasthani artistry with a modern approach to business.</p>
+        
+        <p>His store offers an exquisite range of handmade products, each reflecting the culture and craftsmanship of Rajasthan, curated for those who appreciate authenticity and heritage.</p>
+       
+        <p>Krish is dedicated to sharing his family’s story and skills with the world, ensuring that the beauty of Rajasthani handicrafts reaches every corner of the globe.
+      </p>
+      <button>
+        Whatsapp at 9676219362
+      </button>
+     
+    </div> 
+    </section>
+    <section class="Reviews" id="Reviews">
+      <div class="Review">
+        <h1>REVIEWS</h1>
+        <h2>Whats Our Customer Say</h2>
+      </div>
+      <div class="reviews">
+      <div class="review">
+        <img src="images/rev1.jpg" alt="no-image">
+        <h1>Advait</h1>
+        <div class="stars">
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star-half' style='color:#fcac08' ></i>
+        </div>
+        <p>
+          Convenient living at an affordable price is what i was looking for,especially in a city where i was new. Thanks to Furental! Ihad all of it in a day.
+        </p>
+      </div>
+      <div class="review">
+        <img src="images/rev2.jpg" alt="no-image">
+        <h1>Priye and Madhav</h1>
+        <div class="stars">
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star-half' style='color:#fcac08' ></i>
+        </div>
+        <p>
+          Convenient living at an affordable price is what i was looking for,especially in a city where i was new. Thanks to Furental! Ihad all of it in a day.        </p>
+      </div>
+      <div class="review">
+        <img src="images/rev3.jpg" alt="no-image">
+        <h1>Deekshitha</h1>
+        <div class="stars">
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star' style='color:#fcac08'  ></i>
+          <i class='bx bxs-star-half' style='color:#fcac08' ></i>
+        </div>
+        <p>
+          Convenient living at an affordable price is what i was looking for,especially in a city where i was new. Thanks to Furental! Ihad all of it in a day.        </p>
+      </div>
+    </div>
+    </section>
+    <section class="Subscribe">
+             <div class="subscribe">
+              <h1>Subscribe to Newsletter</h1>
+              <div class="sub"> <input type="email" placeholder="Enter Your Email" required name="email">
+              <button >Subscribe</button>
+              </div>
+             </div>
+    </section>
+    <footer>
+      <div class="rights">
+        <p>@ Krish's Handicraft Store || All Rights Reserved</p>
+        <div class="sub">
+          <i class='bx bxl-instagram-alt' style='color:#fcac08' ><a href=""></a></i>
+        <i class='bx bxl-twitter' style='color:#fcac08' ></i>
+        <i class='bx bxl-facebook-circle' style='color:#fcac08' ></i>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js">
+      
+    </script>    
+  </body>
+</html>
